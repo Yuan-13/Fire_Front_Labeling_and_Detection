@@ -2,8 +2,8 @@
 
 This repository accompanies our paper:
 
-**"Revisiting Fire Front Localization: A Boundary-Oriented Framework for Labeling and Detection in Aerial Imagery"**  
-(under review by ISPRS Journal of Photogrammetry and Remote Sensing)
+**"Boundary-Oriented Fire-Front Localization in UAV Imagery: A Unified Formulation for Standardized Labeling and Detection"**  
+(under review by International Journal of Applied Earth Observation and Geoinformation)
 
 ---
 
@@ -13,11 +13,11 @@ Accurate fire front localization in aerial wildfire imagery is challenging due t
 
 This repository presents two complementary components:
 
-- **SFL (SAM-based Fire Front Labeling)**  
-  A semi-automatic annotation framework for generating high-quality fire front boundaries from aerial imagery. It leverages Meta's **Segment Anything Model (SAM)** with minimal user interaction to produce accurate, consistent, and reproducible one-pixel-wide masks.
+- **SFL** (Semi-automatic Fire Front Labeling)  
+  A semi-automatic annotation framework for generating high-quality fire front boundaries from aerial imagery. It involves minimal user interaction to produce accurate, consistent, and reproducible one-pixel-wide masks.
 
-- **SFD (SAM-based Fire Front Detection)**  
-  A boundary-oriented detection framework for localizing fire front boundaries from aerial imagery. It leverages **Segment Anything Model (SAM)** to identify boundary subsets anchored on adjacent unburned regions, producing accurate, stable, and one-pixel-wide predictions with strong data efficiency.
+- **SFD** (SAM-based Fire Front Detection)  
+  A boundary-oriented detection framework for localizing fire front boundaries from aerial imagery. It leverages Segment Anything Model (SAM) to identify boundary subsets anchored on adjacent unburned regions, producing accurate, stable, and one-pixel-wide predictions with strong data efficiency.
 
 ---
 
