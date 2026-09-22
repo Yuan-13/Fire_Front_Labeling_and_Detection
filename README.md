@@ -97,7 +97,7 @@ If you find this work useful, please cite:
 
 ```bibtex
 @article{***2026,
-title={Revisiting Fire Front Localization: A Boundary-Oriented Framework for Labeling and Detection in Aerial Imagery},
+title={Boundary-Oriented Fire-Front Localization in UAV Imagery: A Unified Formulation for Standardized Labeling and Detection},
 author={Anonymous},
 journal={Under Review},
 year={2026}
